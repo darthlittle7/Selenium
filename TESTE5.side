@@ -1,0 +1,224 @@
+{
+  "id": "c8066251-9ff3-423a-baa2-26216b7dc8f2",
+  "version": "2.0",
+  "name": "TESTE5",
+  "url": "https://www.casasbahia.com.br",
+  "tests": [{
+    "id": "6215a411-3a08-42c3-9118-b6d5753b8334",
+    "name": "A70",
+    "commands": [{
+      "id": "7d607036-4914-4ca0-a467-f5ecb4e3f5a3",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "84518d61-83dd-4d78-8f69-44fa544b1a0c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1174x697",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d16dbe86-f05d-495a-aeda-09bfae3729e1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.container-master-header img",
+      "targets": [
+        ["css=.container-master-header img", "css:finder"],
+        ["xpath=//img[@alt='A Vida pede Empoderamento das Mulheres o ano todo']", "xpath:img"],
+        ["xpath=//div[@id='ctl00_TopBar_PaginaSistemaArea1_3919']/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "72b76201-07c8-4404-ab17-f838b4478eb2",
+      "comment": "",
+      "command": "click",
+      "target": "id=strBusca",
+      "targets": [
+        ["id=strBusca", "id"],
+        ["name=strBusca", "name"],
+        ["css=#strBusca", "css:finder"],
+        ["xpath=//input[@id='strBusca']", "xpath:attributes"],
+        ["xpath=//label[@id='search_label']/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f9bebcd-9f7f-4816-8739-9ddb0b0c03ed",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#lnkCadastreSe > span",
+      "targets": [
+        ["css=#lnkCadastreSe > span", "css:finder"],
+        ["xpath=//a[@id='lnkCadastreSe']/span", "xpath:idRelative"],
+        ["xpath=//strong/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "adc03719-c195-4bd0-b55e-cdd34ed9539c",
+      "comment": "",
+      "command": "type",
+      "target": "id=strBusca",
+      "targets": [
+        ["id=strBusca", "id"],
+        ["name=strBusca", "name"],
+        ["css=#strBusca", "css:finder"],
+        ["xpath=//input[@id='strBusca']", "xpath:attributes"],
+        ["xpath=//label[@id='search_label']/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": "SAMSUNG GALAXY A70"
+    }, {
+      "id": "918e72db-ee70-4aff-9e33-b059d65cc255",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnOK",
+      "targets": [
+        ["id=btnOK", "id"],
+        ["css=#btnOK", "css:finder"],
+        ["xpath=//button[@id='btnOK']", "xpath:attributes"],
+        ["xpath=//div[@id='formBusca']/button", "xpath:idRelative"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Buscar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ef09f98-cc0e-42fe-8ad2-306712d16b71",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.ProductCard__Wrapper-sc-2vuvzo-7:nth-child(1) .LazyLoadImg__Image-sc-1vnijxj-0",
+      "targets": [
+        ["css=.ProductCard__Wrapper-sc-2vuvzo-7:nth-child(1) .LazyLoadImg__Image-sc-1vnijxj-0", "css:finder"],
+        ["xpath=//img[@alt='Usado: Samsung Galaxy A70 128GB Preto Bom - Trocafone']", "xpath:img"],
+        ["xpath=//div[@id='__next']/div[2]/div/div/div[3]/div[2]/div/section/ul/li/div/a/div/div/img", "xpath:idRelative"],
+        ["xpath=//div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9ce657a4-912a-4365-a228-722b5e3c52e0",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.ProductCard__Wrapper-sc-2vuvzo-7:nth-child(1) .LazyLoadImg__Image-sc-1vnijxj-0",
+      "targets": [
+        ["css=.ProductCard__Wrapper-sc-2vuvzo-7:nth-child(1) .LazyLoadImg__Image-sc-1vnijxj-0", "css:finder"],
+        ["xpath=//img[@alt='Usado: Samsung Galaxy A70 128GB Preto Bom - Trocafone']", "xpath:img"],
+        ["xpath=//div[@id='__next']/div[2]/div/div/div[3]/div[2]/div/section/ul/li/div/a/div/div/img", "xpath:idRelative"],
+        ["xpath=//div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b45e4e4-5dcb-40f6-9762-4ebc212e3bbd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ProductCard__Wrapper-sc-2vuvzo-7:nth-child(1) .ProductCard__Title-sc-2vuvzo-0",
+      "targets": [
+        ["css=.ProductCard__Wrapper-sc-2vuvzo-7:nth-child(1) .ProductCard__Title-sc-2vuvzo-0", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/div/div/div[3]/div[2]/div/section/ul/li/div/a/div[2]/h2", "xpath:idRelative"],
+        ["xpath=//div[2]/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Usado: Samsung Galaxy A70 128GB Preto Bom - Trocafone')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5cd99ab2-7796-4b00-90b6-90a1f9a8e563",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-ggtbox:nth-child(3) > .css-1jjcxt1:nth-child(2)",
+      "targets": [
+        ["css=.css-ggtbox:nth-child(3) > .css-1jjcxt1:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div[2]/div[2]", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c091c6a-ff81-4abc-a855-c319185ae232",
+      "comment": "",
+      "command": "click",
+      "target": "css=.eub5v7x0",
+      "targets": [
+        ["css=.eub5v7x0", "css:finder"],
+        ["xpath=//div[@id='product-price-box']/p", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'R$ 1.219,00')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5826cc35-5dab-4c3f-9668-6ce862fe253c",
+      "comment": "",
+      "command": "click",
+      "target": "id=product-price",
+      "targets": [
+        ["id=product-price", "id"],
+        ["css=#product-price", "css:finder"],
+        ["xpath=//span[@id='product-price']", "xpath:attributes"],
+        ["xpath=//div[@id='product-price-box']/p/span", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/p/span", "xpath:position"],
+        ["xpath=//span[contains(.,'R$ 1.219,00')]", "xpath:innerText"]
+      ],
+      "value": "#product-price"
+    }, {
+      "id": "a478277b-6617-4798-9fb6-2735f49a0ae3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-ggtbox:nth-child(3) > .css-1jjcxt1:nth-child(2)",
+      "targets": [
+        ["css=.css-ggtbox:nth-child(3) > .css-1jjcxt1:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div[2]/div[2]", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "872f2ff6-cf0e-4178-bc53-f7e38cb3b1f5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.eub5v7x0",
+      "targets": [
+        ["css=.eub5v7x0", "css:finder"],
+        ["xpath=//div[@id='product-price-box']/p", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'R$ 1.219,00')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "47e961e0-e220-42a3-9c84-2b02ffe80587",
+      "comment": "",
+      "command": "storeTitle",
+      "target": "id-strBusca",
+      "targets": [],
+      "value": "SAMSUNG GALAXY A70"
+    }, {
+      "id": "dbb2b291-f946-4948-8b6e-58c74d90d706",
+      "comment": "",
+      "command": "storeText",
+      "target": "id=product-price",
+      "targets": [],
+      "value": "#product-price"
+    }, {
+      "id": "9560e979-ed15-4559-a2a0-0b05a9a20ffc",
+      "comment": "",
+      "command": "open",
+      "target": "C:\\Users\\vsnsi\\Desktop\\TESTE ANALISTA DE DADOS.xlsm",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "614b732b-692a-4693-b8dd-7d8dab76e409",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "17d4f655-f955-4da4-b916-276e55687040",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["6215a411-3a08-42c3-9118-b6d5753b8334"]
+  }],
+  "urls": ["https://www.casasbahia.com.br/"],
+  "plugins": []
+}
